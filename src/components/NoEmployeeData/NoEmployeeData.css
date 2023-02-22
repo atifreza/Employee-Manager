@@ -1,0 +1,15 @@
+.no_data_content{
+    text-align: center;
+}
+
+.no_data_content > h3{
+    color: #38a169;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.85rem;
+}
+
+.no_data_content > p{
+    color: #7b7c84;
+    font-size: 1rem;
+}

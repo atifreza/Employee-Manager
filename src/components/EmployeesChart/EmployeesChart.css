@@ -1,0 +1,15 @@
+.employee_chart_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.select_chart{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 2rem 2rem 0 2rem;
+}
+.ant-select-selector{
+    background-color: #e5b3a7;
+}

@@ -1,0 +1,15 @@
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+  }
+
+
+.employee_home_page{
+    margin: 2rem;
+}
+.employee_details_add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

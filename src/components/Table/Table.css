@@ -1,0 +1,54 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table thead tr th {
+    /* Important */
+    background-color: #464343;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  }
+  
+  table > thead > tr:first-child {
+    background-color: #393737;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  table > tbody > tr {
+    background-color: #979797;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    /* Not required only for visualizing */
+    padding: 1em;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  .admin_action{
+    cursor: grabbing;
+  }
+  .delete_employee{
+    color: red;
+    margin-left: 1rem;
+  }
+  .add_employee {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+  }
+  .table_content{
+    overflow: scroll;
+    height: 30rem;
+  }

@@ -1,0 +1,40 @@
+.page_header{
+    background-color: #001529;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    color: white;
+}
+.app_title{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+.app_user{
+    display: flex;
+    align-items: center;
+}
+.menu_options{
+    background-color: #cfb4b1;
+    width: 15rem;
+    height: 100vh;
+}
+.header_logo_content{
+    display: flex;
+    align-items: center;
+}
+.header_logo > img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+.user_role{
+    color: white;
+    margin-right: 15px;
+}
+.sign_out{
+    cursor: pointer;
+    color: red;
+}

@@ -1,0 +1,15 @@
+.dashboard{
+    display: "flex";
+}
+.dashboard > div > ul {
+    width: 13rem;
+    height: 100vh
+}
+.user_name{
+    color: black;
+    margin: 1rem 0 0 2rem;
+}
+.main_content{
+    width: 100%;
+    background-color: gainsboro;
+}
